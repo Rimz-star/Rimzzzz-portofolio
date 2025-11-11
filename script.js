@@ -264,33 +264,6 @@
     });
 
     /* ============================================
-       SOSIALMEDIA
-       ============================================ */
-    // Tambahkan tombol sosial media
-const sosialMedia = [
-  { name: 'YouTube', link: 'https:                                         
-  { name: '//www.youtube.com', icon: 'fa-youtube' },
-  { name: 'Instagram', link: 'https://www.instagram.com/rimz_smpn_1_kebasen?igsh=MWJ6NDlvZDI0ampmYQ==', icon: 'fa-instagram' },
-  { name: 'TikTok', link: 'https://www.tiktok.com/@rimzz.sukaa.tian?_r=1&_t=ZS-91J68Uo5T9k', icon: 'fa-tiktok' },
-  { name: 'Telegram', link: 'https://t.me/rimzzzzzzzzzzzzzxxxxxx, icon: 'fa-telegram' }
-];
-
-// Buat elemen tombol sosial media
-const sosialMediaContainer = document.createElement('div');
-sosialMediaContainer.className = 'sosial-media-container';
-
-sosialMedia.forEach((media) => {
-  const tombol = document.createElement('a');
-  tombol.href = media.link;
-  tombol.target = '_blank';
-  tombol.innerHTML = `<i class="fa ${media.icon}"></i>`;
-  tombol.addEventListener('click', () => {
-    window.open(media.link, '_blank');
-  });
-  sosialMediaContainer.appendChild(tombol);
-});
-
-    /* ============================================
        RATING STARS
        ============================================ */
     const ratingStars = document.querySelectorAll('#ratingStars i');
