@@ -164,14 +164,14 @@
 
     const projectData = {
         1: {
-            title: 'E-Commerce Website',
+            title: 'Nokos Website',
             image: 'img.png',
-            description: 'A full-featured e-commerce platform built with modern web technologies. Includes shopping cart, payment gateway integration, user authentication, product catalog with filtering and search, order management system, and responsive design for mobile and desktop. Technologies used: HTML5, CSS3, JavaScript, and various APIs for payment processing.'
+            description: 'Nokos website or qpanel is a website for buying and selling numbers all over the world without using a telephone card. Here you can buy foreign telephone numbers, and the way to buy them is quite easy, you just press the help button on the dashboard..'
         },
         2: {
-            title: 'Portfolio Template',
-            image: 'waguri.webp',
-            description: 'A sleek and modern portfolio website template designed for creative professionals. Features smooth animations, responsive grid layout, project showcases with lightbox galleries, contact forms with validation, and optimized performance. Built with semantic HTML5, custom CSS animations, and vanilla JavaScript for maximum compatibility.'
+            title: 'ordersuntiksosmed',
+            image: 'suntik.png',
+            description: 'Ordering a social media injection is a video cheat injection service for all social media platforms. This service increases likes, comments, viewers, and followers when you purchase the service on the website. Purchasing is quite easy; simply press the help button on the dashboard..'
         },
         3: {
             title: 'Dashboard Admin',
