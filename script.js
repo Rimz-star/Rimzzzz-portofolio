@@ -174,9 +174,9 @@
             description: 'Ordering a social media injection is a video cheat injection service for all social media platforms. This service increases likes, comments, viewers, and followers when you purchase the service on the website. Purchasing is quite easy; simply press the help button on the dashboard..'
         },
         3: {
-            title: 'Dashboard Admin',
-            image: 'IMG_20250930_152948.jpg',
-            description: 'A comprehensive admin dashboard for managing business operations. Includes real-time data visualization with interactive charts, user management system, analytics and reporting tools, notification system, and dark/light theme toggle. Built with modern JavaScript, Chart.js for data visualization, and responsive design principles.'
+            title: 'Aplikasi Bug WhatsApp',
+            image: 'apk bug.jpg',
+            description: 'WhatsApp bug application, this application is useful for making the WhatsApp system crash or can also be permanently blank, and this application is very dangerous if it falls into the wrong hands if you are interested in buying it contact the admin who is in contact.'
         }
     };
 
