@@ -443,8 +443,7 @@
   const minutes = Math.floor(audio.currentTime / 60);
   const seconds = Math.floor(audio.currentTime % 60);
   timeSpan.innerHTML = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} / ${Math.floor(audio.duration / 60).toString().padStart(2, '0')}:${Math.floor(audio.duration % 60).toString().padStart(2, '0')}`;
- });
-   
+ }); 
 });
 
 })();
