@@ -388,7 +388,7 @@ HERO SECTION
 .skill-icon { font-size: 2rem; margin-bottom: 5px; color: var(--accent-color); }
 .skill-level { font-size: 0.9rem; color: var(--text-secondary); margin-top: 3px; }
 
-/* AUDIO CONTAINER */
+/* AUDIO CONTAINER FIX */
 .audio-container {
     margin-top: calc(var(--spacing-unit) * 5);
     padding: calc(var(--spacing-unit) * 4);
@@ -399,6 +399,10 @@ HERO SECTION
     box-shadow: 0 0 20px rgba(0,245,194,0.15);
     text-align: center;
     animation: fadeIn 1s ease;
+
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .audio-container h3 {
@@ -410,7 +414,7 @@ HERO SECTION
 
 .audio-container audio {
     width: 100%;
-    max-width: 400px;
+    height: auto;
     filter: drop-shadow(0 0 10px rgba(0,245,194,0.4));
     border-radius: 10px;
 }
@@ -469,4 +473,4 @@ HERO SECTION
 /* MODAL */
 .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; justify-content:center; align-items:center; z-index:2000; }
 .modal-overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); }
-.modal-content { position:relative; background:var(--bg-primary); border-radius:15px; padding:calc(var(--spacing-unit)*4); max-width:600
+.modal-content { position:relative; background:var(--bg-primary); border-radius:15px; padding:calc
